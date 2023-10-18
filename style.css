@@ -1,0 +1,81 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+body {
+	background-image: url(./fotos/pf-s80-green-pat-01a.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.cabecalho {
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Chakra Petch', sans-serif;
+	padding: 15px;
+
+}
+
+.cabecalho p {
+	font-size: 35px;
+	color: rgb(0, 0, 0);
+}
+
+.container video {
+	width: 2000px;
+	height: 400px;
+	box-shadow: 3px 3px 5px 5px rgb(171, 172, 113);
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	size: 30px;
+	padding: 50px;
+	margin: 70px;
+	font-size: 33px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	text-align: left;
+}
+
+ul {
+	list-style: none;
+	display: flex;
+	height: 60vh;
+	justify-content: space-between;
+	margin: 150px;
+	font-size: 40px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+ul img {
+	box-shadow: 3px 10px 5px 5px rgb(171, 172, 113);
+}
+
+ul button {
+	background-color: green;
+	color: #fff;
+	padding: 5px 40px;
+	border: 1px solid green;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 30px;
+	transition: all .3s ease;
+}
+
+ul button:hover{
+	background-color: #fff;
+	color: green;
+}
+
+.compre {
+	align-items: center;
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Chakra Petch', sans-serif;
+}
